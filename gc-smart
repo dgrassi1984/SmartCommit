@@ -110,15 +110,6 @@ if $PREVIEW; then
 	handle_preview
 fi
 
-# Commit the changes to the Git repository and check the result
-if ! $GIT_CMD commit 2> "$GIT_ROOT/git_error.log"; then
-    # Handle any commit errors
-    handle_git_commit_error
-else
-    # Indicate successful commit
-    echo "Commit successful."
-fi
-
 # Normal exit after successful execution.
 echo "Execution of gc-smart completed successfully."
 exit 0
