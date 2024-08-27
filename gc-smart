@@ -110,6 +110,8 @@ if $PREVIEW; then
 	handle_preview
 fi
 
+$GIT_CMD commit -m "$(cat "$GIT_ROOT/tmp_commit_msg.txt")"
+
 # Normal exit after successful execution.
 echo "Execution of gc-smart completed successfully."
 exit 0
