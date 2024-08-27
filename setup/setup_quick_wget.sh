@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-REPO_URL="https://github.com/5n00py/SmartCommit.git"
+REPO_URL="https://github.com/dgrassi1984/SmartCommit.git"
 INSTALL_DIR="$HOME/.local/share/SmartCommit"
 
 # Create the installation directory if it doesn't exist
